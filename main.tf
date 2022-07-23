@@ -15,10 +15,10 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "b" {
-  bucket = "my-tf-test-bucket-sl-varun9977"
+  bucket = "anurag-b21-default-bucket-1988"
 
   tags = {
-    Name        = "My bucket"
+    Name = "Terraform-bucket"
     Environment = "Dev"
 
   }
